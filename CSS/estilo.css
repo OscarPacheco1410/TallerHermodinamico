@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.encabezado{
+  font-family: arial;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+th{
+  font-size: 12px;
+}
+h5{
+  font-size: 15px;
+}
+
+input{
+  caret-color: rgb(91, 31, 85);
+
+}
+
+input[type=text]{
+  font-size: 14px;/*tamaño de contenido text*/
+}
+
+textarea {
+    resize: none;/*qita scroll de text area*/
+    overflow: hidden;/*quita que se pueda expandir manualmente*/
+}
+.swal-overlay {/*COLOR DE FONDO ALERT*/
+background-color: rgba(255, 4, 4, 0.58);
+}
+.swal-button {/*BOTON*/
+background-color: rgb(13, 52, 218);
+}

@@ -1,0 +1,3 @@
+function Guardar() {
+  window.print();
+}
